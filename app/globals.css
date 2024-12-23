@@ -158,7 +158,7 @@
     @apply text-red body-2 ml-4 !important;
   }
   .shad-alert-dialog {
-    @apply space-y-4 max-w-[95%] sm:w-fit rounded-xl md:rounded-[30px] px-4 md:px-8 py-10 bg-white outline-none !important;
+    @apply space-y-4 max-w-[95%] sm:w-fit rounded-xl md:rounded-[30px] px-4 md:px-8 py-10 bg-dark-200 border-none outline-none !important;
   }
   .shad-submit-btn {
     @apply bg-brand button hover:bg-brand-100 transition-all rounded-full !important;
