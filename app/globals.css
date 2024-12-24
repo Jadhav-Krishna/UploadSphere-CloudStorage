@@ -181,7 +181,7 @@
     @apply cursor-pointer !important;
   }
   .shad-dialog {
-    @apply rounded-[26px] w-[90%] max-w-[400px] px-6 py-8   !important;
+    @apply rounded-[26px] w-[90%] max-w-[400px] px-6 py-8  !important;
   }
   .shad-chart-title {
     @apply text-white !important;
@@ -319,7 +319,7 @@
 
   /* Chart */
   .chart {
-    @apply flex items-center rounded-[20px] bg-brand p-5 text-white md:flex-col xl:flex-row !important;
+    @apply flex items-center border-none rounded-[20px] bg-brand p-5 text-white md:flex-col xl:flex-row !important;
   }
   .chart-container {
     @apply mx-auto aspect-square w-[180px] text-white xl:w-[250px] !important;
@@ -345,10 +345,10 @@
     @apply primary-btn h-[52px] gap-2 px-10 shadow-drop-1 !important;
   }
   .uploader-preview-list {
-    @apply fixed bottom-10 right-10 z-50 flex size-full h-fit max-w-[480px] flex-col gap-3 rounded-[20px] bg-white p-7 shadow-drop-3 !important;
+    @apply fixed bottom-10 right-10 z-50 flex size-full h-fit max-w-[480px] flex-col gap-3 rounded-[20px] bg-dark-200 text-white p-7 shadow-drop-3 !important;
   }
   .uploader-preview-item {
-    @apply flex items-center justify-between  gap-3 rounded-xl p-3 shadow-drop-3 !important;
+    @apply flex items-center justify-between bg-dark-100  gap-3 rounded-xl p-3 shadow-drop-3 !important;
   }
   .preview-item-name {
     @apply subtitle-2 mb-2 line-clamp-1 max-w-[300px] !important;
@@ -408,7 +408,7 @@
     @apply body-2 shad-no-focus  placeholder:body-1 w-full border-none p-0 shadow-none placeholder:text-light-200 !important;
   }
   .search-result {
-    @apply absolute left-0 top-16 z-50 flex w-full flex-col gap-3 rounded-[20px] bg-white p-4 !important;
+    @apply absolute left-0 top-16 z-50 flex w-full flex-col gap-3 rounded-[20px] bg-dark-200 text-white p-4 !important;
   }
   .empty-result {
     @apply body-2 text-center text-light-100 !important;
